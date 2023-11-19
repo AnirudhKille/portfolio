@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  background-color: #191A25;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  position: absolute;
+  left: 35px;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+nav ul li {
+  left: 20px;
+  margin: auto;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: transform .4s;
+}
+
+ul li a:hover {
+  color: blueviolet;
+}
+
+nav .fa-solid {
+  display: none;
+}
+
+.fa-bars {
+  position: relative;
+  right: -35vw;
+}
+
+.homeSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.leftSection {
+  font-size: 5vh;
+}
+
+.homeSection>div {
+  width: 40%;
+  margin: auto;
+}
+
+.rightSection img {
+  width: 100%;
+  margin: 4vw 0;
+}
+
+.purple {
+  color: rgb(138, 43, 226);
+}
+
+/* 
+section {
+  height: 100vh;
+} */
+
+/* about section */
+.aboutSection {
+  margin: 6vh 3vh;
+  min-height: fit-content;
+}
+
+.aboutContainer {
+  text-align: center;
+}
+
+.aboutContainer .headding {
+  font-size: 6vh;
+  padding: 6vh 1vh 1vh 1vh;
+}
+
+.row {
+  display: flex;
+  margin: 3vw;
+}
+
+.imgContainer {
+  padding: 10px;
+margin-top: 15px;
+}
+
+.imgContainer img {
+  background: transparent;
+}
+
+.imgContainer a {
+  text-decoration: none;
+  color: white;
+  background-color: #854CE6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.intro {
+  margin: 2vw;
+}
+
+.intro p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+
+/* skills section */
+.skillSection {
+  margin: 6vh 3vh;
+}
+
+.skillContainer {
+  text-align: center;
+}
+
+.skillContainer .headding {
+  font-size: 6vh;
+  padding: 6vh 1vh 1vh 1vh;
+}
+
+.skillCard {
+  display: flex;
+  border: 2px solid #854CE6;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.skillCard .language {
+  border-radius: 10px;
+  margin: 2vw;
+  font-size: 15px;
+  padding: 15px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.language i {
+  padding-right: 10px;
+}
+
+/* project section */
+.sectionProjects {
+  min-height: 100vh;
+}
+
+.projectsContainer {
+  text-align: center;
+  padding: 3vw;
+}
+
+.projectsContainer .headding {
+  font-size: 6vh;
+}
+
+.projectRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.appContainer {
+  width: 330px;
+  height: 490px;
+  border: 2px solid #854CE6;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
+  overflow: hidden;
+  padding: 26px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.appImage {
+
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.techStacks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.techStacks span {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(133, 76, 230);
+  background-color: rgba(133, 76, 230, 0.082);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.appInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding: 0px 2px;
+}
+
+.appTitle {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  max-width: 100%;
+}
+
+.appDescription {
+  font-size: 12px;
+  text-align: left;
+  font-weight: 400;
+  color: rgb(177, 178, 179);
+  margin-top: 8px;
+  max-width: 100%;
+}
+
+.appContainer a {
+  text-decoration: none;
+  color: white;
+  background-color: #854CE6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+
+/* contact section */
+.contactContainer {
+  padding: 3vw;
+  text-align: center;
+
+}
+
+.contactContainer .headding {
+  font-size: 6vh;
+
+}
+
+.contactCard {
+  border: 2px solid #854CE6;
+  border-radius: 12px;
+  padding: 5vh;
+  width: 50%;
+  margin: 3vh auto;
+}
+
+.emailMe {
+  text-align: left;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.input,
+.textarea {
+  background-color: transparent;
+  border: 1px solid rgb(177, 178, 179);
+  outline: none;
+  font-size: 18px;
+  color: rgb(242, 243, 244);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 1vh;
+  width: 80%;
+}
+
+
+.btnSend {
+  width: 85%;
+  margin: 1vh;
+  font-size: 18px;
+  padding: 12px 16px;
+  background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+
+/* footer section */
+.footerContainer {
+  text-align: center;
+  margin: 5vh;
+
+}
+
+.icons {
+  margin: 3vh;
+}
+
+.icons a {
+  font-size: 30px;
+  margin: 10px;
+  color: aliceblue;
+}
+
+i:hover {
+  color: #854CE6;
+}
+
+
+@media only screen and (max-width:800px) {
+  nav .fa-solid {
+    display: block;
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  nav ul {
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  /* home section */
+  .homeSection {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .homeSection>div {
+    width: 80%;
+    margin: 90px 3px 3px 13px;
+  }
+
+  .leftSection {
+    font-size: 30px;
+    margin-top: auto;
+
+  }
+
+  .leftSection>div {
+    text-align: left;
+    margin-left: 22vw;
+  }
+
+  .rightSection {
+    width: 59%;
+    margin: auto;
+  }
+
+  .rightSection img {
+    margin-bottom: 5px;
+    text-align: center;
+    width: 70%;
+  }
+
+  /* about section */
+  .row {
+    display: block;
+  }
+ /*contact section  */
+.contactCard{
+  width: 70%;
+}
+}
+
+@media only screen and (min-width:801px) {
+  .skillCard {
+    padding: 1.5 vh;
+    width: 50%;
+    margin: 3vh auto;
+  }
+.intro p{
+  font-size: 3vh;
+}
+}

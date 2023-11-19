@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anirudh Kille</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h2 class="logo">Portfolio</h2>
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><i class="fa-solid fa-xmark" onclick="closeMenu()"></i></li>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- home section -->
+    <section class="homeSection" id="home">
+      <div class="leftSection">
+        <div>Hi, I am</div>
+        <div class="purple">Anirudh Kille </div>
+        <div class=""> I am Full Stack Web Developer</div>
+        <div class="icons">
+          <a href="https://github.com/AnirudhKille" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/anirudh_kille" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/anirudh-kille-0379a4282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="./assets/bg.png" alt="background image" />
+      </div>
+
+    </section>
+    <hr>
+
+    <!-- about section  -->
+    <section id="about" class="aboutSection">
+      <div class="aboutContainer">
+        <h2 class="headding">About</h2>
+        <div class="row">
+          <div class="imgContainer">
+            <img src="./assets/dp.jpg" width="250px" /><br>
+            <a href="./assets/dp.jpg" download="anirudhKille_resume.jpg">Download CV</a>
+          </div>
+          <div class="intro">
+            <p>I'm Anirudh Kille,a passionate and innovative Full Stack
+              Web Developer from Mangaluru
+              Karnataka, India.
+              I am a motivated and versatile individual, always eager to take
+              on new challenges. With a passion for learning I am dedicated to
+              delivering high-quality results. With a positive attitude and a
+              growth mindset, I am ready to make a meaningful contribution and
+              achieve great things.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr>
+
+    <!--  skill section-->
+    <section class="skillSection" id="skills">
+      <div class="skillContainer">
+        <h2 class="headding">Skills</h2>
+        <div class="skillCard">
+          <div class="language" style="border: 1px solid red;"><i class="fa-brands fa-html5"
+              style="color: red;"></i>HTML</div>
+          <div class="language" style="border: 1px solid rgb(0, 179, 250);"><i class="fa-brands fa-css3-alt"
+              style="color: rgb(0, 179, 250);"></i>CSS</div>
+          <div class="language" style="border: 1px solid yellow;"><i class="fa-brands fa-js"
+              style="color: yellow;"></i>Javascript</div>
+          <div class="language" style="border: 1px solid rgb(2, 176, 245);"><i class="fa-brands fa-bootstrap"
+              style="color: #6E2BF4;"></i>Bootstrap
+          </div>
+          <div class="language" style="border: 1px solid rgb(0, 179, 250);"><i class="fa-solid fa-code"
+              style="color: rgb(0, 179, 250);"></i></i>Tailwind css
+          </div>
+          <div class="language" style="border: 1px solid #149ECA;"><i style="color: #149ECA;"
+              class="fa-brands fa-react"></i>React Js</div>
+          <div class="language" style="border: 1px solid #132865;"><i style="color: #56A545;"
+              class="fa-brands fa-node"></i>Node Js</div>
+          <div class="language" style="border: 1px solid grey"><i style="color: grey;"
+              class="fa-solid fa-server"></i>Express Js</div>
+          <div class="language" style="border: 1px solid #00ED64;"><i style="color: #00ED64;"
+              class="fa-solid fa-database"></i>MongoDB</div>
+          <div class="language" style="border: 1px solid red;"><i style="color: red;"
+              class="fa-brands fa-git-alt"></i>GIT</div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- projects section -->
+    <section id="projects" class="sectionProjects">
+      <div class="projectsContainer">
+        <h1 class="headding">Projects</h1>
+        <div class="projectRow">
+          <div class="appContainer">
+            <img src="./assets/bg.png" class="appImage" />
+            <div class="techStacks">
+              <span>MongoDB</span>
+              <span>Node Js</span>
+              <span>React</span>
+              <span>Express Js</span>
+              <span>Redux</span>
+              <span>Bootstrap</span>
+            </div>
+            <div class="appInfo">
+              <div class="appTitle">zomato-clone
+              </div>
+              <div class="appDescription">
+                A food delivery app is a third-party service that allows customers to order food from restaurants and
+                retailers and have it delivered to their doorstep. Food delivery apps can also connect restaurants with
+                convenience stores.
+              </div>
+              <a href="https://github.com/AnirudhKille/zomato-clone" target="_blank">View Code</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     
+    </section>
+    <hr>
+
+    <!-- contact section -->
+    <section class="contactSection" id="contact">
+      <div class="contactContainer">
+        <h1 class="headding">Contact</h1>
+        <p>Feel free to reach out to me for any questions or opportunities!</p>
+        <div class="contactCard">
+          <div class="emailMe">Email Me 🚀</div>
+          <form action="https://formsubmit.co/e7c8c6d59e3ea0a4e67683800b675c69" method="POST" onsubmit="clear()">
+            <input type="text" class="input" placeholder="Your Name" name="name" /><br>
+            <input type="email" class="input" placeholder="Your Email" name="email" /><br>
+            <input type="text" class="input" placeholder="Subject" name="subject" /><br>
+            <textarea type="text" class="textarea" placeholder="Message" name="message"></textarea><br>
+
+            <!-- form submit attribute -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="your custom message">
+
+            <button class="btnSend">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <hr>
+
+
+  <!-- footer  -->
+  <footer>
+    <div class="footerContainer">
+      <h1 class="">Anirudh Kille</h1>
+      <div class="icons">
+        <a href="https://github.com/AnirudhKille" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/anirudh_kille" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a target="_blank"
+          href="https://www.linkedin.com/in/anirudh-kille-0379a4282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          <i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>© 2023 Anirudh Kille. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- scripts -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
