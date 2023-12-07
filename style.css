@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 ul li a:hover {
-  color: #757CF5;
+  color: #854CE6;
 }
 
 nav .fa-solid {
@@ -87,7 +87,7 @@ nav .fa-solid {
 }
 
 .purple {
-  color: #757CF5;
+  color: #854CE6;
 }
 
 /* 
@@ -95,7 +95,8 @@ section {
   height: 100vh;
 } */
 
-/* about section */
+/**************************** about section ************************/
+
 .aboutSection {
   margin: 6vh 3vh;
   min-height: fit-content;
@@ -112,12 +113,13 @@ section {
 
 .row {
   display: flex;
+  justify-content: center;
   margin: 3vw;
 }
 
 .imgContainer {
   padding: 10px;
-margin-top: 15px;
+  margin-top: 15px;
 }
 
 .imgContainer img {
@@ -127,7 +129,7 @@ margin-top: 15px;
 .imgContainer a {
   text-decoration: none;
   color: white;
-  background-color:#757CF5;
+  background-color: #854CE6;
   border-radius: 10px;
   padding: 10px;
   margin: 15px;
@@ -139,15 +141,27 @@ margin-top: 15px;
 }
 
 .intro p {
+  max-width: 580px;
   font-size: 20px;
   letter-spacing: 1px;
   text-align: left;
 }
 
+.eduContainer {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
 
-/* skills section */
+.li{
+
+}
+
+/****************************** skills section ****************************/
 .skillSection {
   margin: 6vh 3vh;
+  align-items: center;
 }
 
 .skillContainer {
@@ -161,7 +175,7 @@ margin-top: 15px;
 
 .skillCard {
   display: flex;
-  border: 2px solid#757CF5;
+  border: 2px solid#854CE6;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -183,7 +197,7 @@ margin-top: 15px;
   padding-right: 10px;
 }
 
-/* project section */
+/********************************** project section**************************** */
 .sectionProjects {
   min-height: 100vh;
 }
@@ -208,7 +222,7 @@ margin-top: 15px;
 .appContainer {
   width: 330px;
   height: 490px;
-  border: 2px solid#757CF5;
+  border: 2px solid#854CE6;
   cursor: pointer;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
@@ -274,7 +288,7 @@ margin-top: 15px;
 .appContainer a {
   text-decoration: none;
   color: white;
-  background-color:#757CF5;
+  background-color: #854CE6;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
@@ -282,7 +296,7 @@ margin-top: 15px;
 }
 
 
-/* contact section */
+/* ****************************************contact section *****************/
 .contactContainer {
   padding: 3vw;
   text-align: center;
@@ -295,7 +309,7 @@ margin-top: 15px;
 }
 
 .contactCard {
-  border: 2px solid#757CF5;
+  border: 2px solid#854CE6;
   border-radius: 12px;
   padding: 5vh;
   width: 50%;
@@ -351,7 +365,7 @@ margin-top: 15px;
 }
 
 i:hover {
-  color:#757CF5;
+  color: #854CE6;
 }
 
 
@@ -417,10 +431,11 @@ i:hover {
   .row {
     display: block;
   }
- /*contact section  */
-.contactCard{
-  width: 70%;
-}
+
+  /*contact section  */
+  .contactCard {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width:801px) {
@@ -429,7 +444,8 @@ i:hover {
     width: 50%;
     margin: 3vh auto;
   }
-.intro p{
-  font-size: 3vh;
-}
+
+  .intro p {
+    font-size: 3vh;
+  }
 }
